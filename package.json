@@ -4,8 +4,10 @@
   "description": "Testes de API do Server Rest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npx cypress run"
+  }, 
   "author": "Bárbara Cabral da Conceição",
   "license": "ISC",
   "dependencies": {
