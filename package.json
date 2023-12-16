@@ -1,0 +1,17 @@
+{
+  "name": "serverrestapitest",
+  "version": "1.0.0",
+  "description": "Testes de API do Server Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npx cypress run"
+  }, 
+  "author": "Bárbara Cabral da Conceição",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "unique-names-generator": "^4.7.1"
+  }
+}
