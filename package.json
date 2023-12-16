@@ -1,0 +1,15 @@
+{
+  "name": "serverrestapitest",
+  "version": "1.0.0",
+  "description": "Testes de API do Server Rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bárbara Cabral da Conceição",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "unique-names-generator": "^4.7.1"
+  }
+}
